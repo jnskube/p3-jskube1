@@ -1,1 +1,21 @@
 /*stylesheet*/
+body {
+	margin: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#masthead {
+	background-color: gray;
+}
+
+#nav {
+	background-color: red;
+}
+
+#logo {
+	
+}
