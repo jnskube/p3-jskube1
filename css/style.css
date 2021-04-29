@@ -1,21 +1,179 @@
 /*stylesheet*/
 body {
 	margin: 0;
+	background-image: url("../images/.png");
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+}
+
+img {
+	width: 100%;
+	height: auto;
 }
 
 .wrapper {
+	position: relative;
 	margin: 0 auto;
 	max-width: 1200px;
 }
 
 #masthead {
-	background-color: gray;
+	background-color: ;
 }
 
 #nav {
-	background-color: red;
+	background-color: ;
 }
 
 #logo {
+
+}
+
+#logo svg {
+	width: %;
+	margin: 0 auto;
 	
 }
+
+#thing {
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+#thing-inner {
+  padding: 15rem 10rem;
+}
+
+#thing-inner h1 {
+  margin-top: 0;
+}
+
+#map {
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+#map img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#map-inner {
+  position: relative;
+}
+
+#map-inner .map1 {
+  position: absolute;
+  z-index: 1;
+  width: 9%;
+  height: 12%;
+  left: 57%;
+  top: 58%;
+  border: 5px solid transparent;
+  transition: border .3s ease-in-out;
+}
+
+#map-inner .map1:hover {
+  border: 5px solid red;
+}
+
+#tree {
+	overflow: hidden;
+}
+
+#tree img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#tree-inner {
+	position: relative;
+}
+
+#tree-inner .bird-overlay {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 45%;
+  right: 2rem;
+  top: 2rem;
+  border: 1px solid black;
+  background: #fff;
+}
+
+.stuff {
+	margin-top: 2rem;
+	padding: 1rem;
+	border-top: 1px solid black;
+}
+
+#tree-inner .bird-overlay p: last-child {
+	margin-bottom: 0;
+}
+
+#tree-inner .bird-overlay p: last-child {
+	margin-top: 0; 
+}
+
+#tree-inner .bird {
+	position: absolute;
+	z-index: 1;
+	width: 6%;
+	height: 5%;
+	left: 36%;
+	top: 36%;
+	border: 5px solid red;
+
+}
+
+.close-icon {
+	position: absolute;
+	top: .5rem;
+	right: .5rem;
+	display: block;
+	box-sizing: border-box;
+	width: 1rem;
+	height: 1rem;
+	background:;
+}
+
+@media all and (max-width: 699px) { 
+
+  #masthead {
+    padding-bottom: 1rem;
+  }
+
+  #logo #logo-holder {
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  #logo a {
+  	width: 25%;
+  }
+
+}
+
+@media all and (min-width: 700px) { 
+  
+  body{
+    font-size: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 1vw);
+  }
+
+}
+
+@media all and (min-width: 1800px) {
+
+  body{
+    font-size: calc(var(--base-font-size) + var(--fluid-typography-ratio) * 18px);
+  }
+
+}
+
+
