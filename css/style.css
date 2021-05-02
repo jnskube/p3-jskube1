@@ -1,5 +1,9 @@
 /*stylesheet*/
 body {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	margin: 0;
 	background-image: url("../images/.png");
 	color: white;
@@ -12,44 +16,8 @@ img {
 	height: auto;
 }
 
-.wrapper {
-	position: relative;
-	margin: 0 auto;
-	max-width: 1200px;
-}
+#wrapper {
 
-#masthead {
-	background-color: ;
-}
-
-#nav {
-	background-color: ;
-}
-
-#logo {
-
-}
-
-#logo svg {
-	width: %;
-	margin: 0 auto;
-	
-}
-
-#thing {
-  background: #000;
-  color: #fff;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-
-#thing-inner {
-  padding: 15rem 10rem;
-}
-
-#thing-inner h1 {
-  margin-top: 0;
 }
 
 #map {
@@ -70,16 +38,16 @@ img {
 #map-inner .map1 {
   position: absolute;
   z-index: 1;
-  width: 9%;
-  height: 12%;
-  left: 57%;
-  top: 58%;
+  width: %;
+  height: %;
+  left: %;
+  top: %;
   border: 5px solid transparent;
   transition: border .3s ease-in-out;
 }
 
 #map-inner .map1:hover {
-  border: 5px solid red;
+  border: 5px ;
 }
 
 #tree {
@@ -125,10 +93,10 @@ img {
 	position: absolute;
 	z-index: 1;
 	width: 6%;
-	height: 5%;
-	left: 36%;
-	top: 36%;
-	border: 5px solid red;
+	height: 4%;
+	left: 37%;
+	top: 39%;
+	border: 5px solid yellow;
 
 }
 
@@ -140,7 +108,14 @@ img {
 	box-sizing: border-box;
 	width: 1rem;
 	height: 1rem;
-	background:;
+	border-width:1px;
+	border-style: solid;
+    border-color:transparent;
+    border-radius:100%;
+    background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%);
+    background-color:white;
+    transition: all 0.3s ease;
+
 }
 
 @media all and (max-width: 699px) { 
