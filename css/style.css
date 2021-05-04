@@ -5,15 +5,43 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: 0;
+	background-color: #a5bbe6;
 	background-image: url("../images/.png");
 	color: white;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 200;
 }
 
 img {
 	width: 100%;
 	height: auto;
+}
+
+.logo {
+	z-index: 1;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.quote1 {
+	text-align: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	font-weight: 300;
+	font-size: 1.75em;
+}
+
+.quote3 {
+	text-align: right;
+	margin-left: auto;
+	margin-right: 5rem;
+	font-weight: 300;
+	font-size: 1.75em;
 }
 
 #wrapper {
@@ -94,9 +122,9 @@ img {
 	z-index: 1;
 	width: 6%;
 	height: 4%;
-	left: 37%;
+	left: 36%;
 	top: 39%;
-	border: 5px solid yellow;
+	border: 5px dashed black;
 
 }
 
