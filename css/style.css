@@ -36,6 +36,13 @@ img {
 	font-size: 1.75em;
 }
 
+.quote2 {
+	text-align: center;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	font-weight: 300;
+	font-size: 1.75em;
+}
 .quote3 {
 	text-align: right;
 	margin-left: auto;
